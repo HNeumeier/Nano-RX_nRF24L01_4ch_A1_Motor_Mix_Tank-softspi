@@ -6,10 +6,9 @@ The possibility of setting the brake is in the code.
 The firmware will be used for micro boats, tanks and robots.
 
 This RC receiver works with RC transmitters [TX_nRF24L01_4ch_Telemetry_LCD](https://github.com/stanekTM/TX_nRF24L01_4ch_Telemetry_LCD) or
-[TX_nRF24L01_5ch_Telemetry_LED](https://github.com/stanekTM/TX_nRF24L01_5ch_Telemetry_LED) from my fork.
+[TX_nRF24L01_5ch_Telemetry_LED](https://github.com/stanekTM/TX_nRF24L01_5ch_Telemetry_LED) or with [TX_nRF24L01_4ch_Telemetry_LCD_ttp224](https://github.com/HNeumeier/TX_nRF24L01_4ch_Telemetry_LCD_ttp224) from my fork.
 
-Note: I use (Arduino) ATmega328P 5V/16Mhz and supply VCC only with 3.3V voltage.
-If you supply the VCC directly with a LiPo 1S cell, except for the nRF24L01, the analog voltage measurement will not work due to the VREF.
+Note: I use (Arduino Nano)
 
 ## Function
 * MotorA = adjustable pwm/ch1 - mix tank-arcade
@@ -41,6 +40,3 @@ A4  - MISO
 ## Used libraries
 * <RF24.h>      https://github.com/nRF24/RF24
 * <DigitalIO.h> https://github.com/greiman/DigitalIO
-
-## RX prototype (mix tank-arcade motor driver, telemetry)
-<img src="https://raw.githubusercontent.com/stanekTM/RX_nRF24L01_Telemetry_Motor_Servo/master/documents/rx_prototype_mix_tank_arcade_1.jpg" width="415"><img src="https://raw.githubusercontent.com/stanekTM/RX_nRF24L01_Telemetry_Motor_Servo/master/documents/rx_prototype_mix_tank_arcade_2.jpg" width="415">
