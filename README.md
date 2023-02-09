@@ -12,7 +12,7 @@ The possibility of setting the brake is in the code.
 The firmware will be used for micro boats, tanks and robots.
 
 This RC receiver works with RC transmitters [TX_nRF24L01_4ch_Telemetry_LCD](https://github.com/stanekTM/TX_nRF24L01_4ch_Telemetry_LCD) or
-[TX_nRF24L01_5ch_Telemetry_LED](https://github.com/stanekTM/TX_nRF24L01_5ch_Telemetry_LED) or with [TX_nRF24L01_4ch_Telemetry_LCD_ttp224](https://github.com/HNeumeier/TX_nRF24L01_4ch_Telemetry_LCD_ttp224) from my fork.
+[TX_nRF24L01_5ch_Telemetry_LED](https://github.com/stanekTM/TX_nRF24L01_5ch_Telemetry_LED) or with Multiprotocol from (https://github.com/stanekTM/DIY-Multiprotocol-TX-Module) or with  [TX_nRF24L01_4ch_Telemetry_LCD_ttp224](https://github.com/HNeumeier/TX_nRF24L01_4ch_Telemetry_LCD_ttp224) from my fork.
 
 Note: I use (Arduino Nano)
 
